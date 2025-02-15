@@ -13,7 +13,7 @@ const program = new Command();
 program
   .name('crypt-env')
   .description('Secure environment manager with profile-based encrypted storage')
-  .version('1.0.0');
+  .version('0.1.2');
 
 program
   .command('add-profile <profile>')

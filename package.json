@@ -1,6 +1,6 @@
 {
   "name": "@imduchuyyy/crypt-env",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "module": "index.ts",
   "description": "Secure environment manager with profile-based encrypted storage",
   "author": "Duc Huy <imduchuyyy@gmail.com>",
