@@ -13,5 +13,11 @@
   },
   "bin": {
     "safeenv": "build/safeenv"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "commander": "^13.1.0",
+    "crypto-js": "^4.2.0",
+    "inquirer": "^12.4.1"
   }
 }
