@@ -10,7 +10,7 @@ import { listProfilesCommand } from './cmd/listProfiles';
 
 const program = new Command();
 
-const VERSION = '0.1.2';
+const VERSION = '0.1.3';
 
 program
   .name('crypt-env')
