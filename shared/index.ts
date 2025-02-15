@@ -3,7 +3,7 @@ import * as path from 'path';
 import inquirer from 'inquirer';
 import { encrypt, decrypt } from '../crypto';
 
-const PROFILE_DIR = path.join(process.env.HOME || '.', '.safeenv');
+const PROFILE_DIR = path.join(process.env.HOME || '.', '.crypt-env');
 
 if (!fs.existsSync(PROFILE_DIR)) {
   fs.mkdirSync(PROFILE_DIR);

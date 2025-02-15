@@ -4,7 +4,7 @@ import { loadOrCreateProfile } from '../shared';
 export async function execCommand(profile: string, cmd: string[]) {
   const { env } = await loadOrCreateProfile(profile);
 
-  console.log(`[safeenv] Executing "${cmd.join(' ')}" with profile "${profile}"...`);
+  console.log(`[CryptEnv] Executing "${cmd.join(' ')}" with profile "${profile}"...`);
 
   const child = spawn(cmd.join(' '), {
     stdio: 'inherit',
