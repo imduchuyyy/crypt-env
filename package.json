@@ -22,8 +22,10 @@
   },
   "dependencies": {
     "@types/crypto-js": "^4.2.2",
+    "@types/update-notifier": "^6.0.8",
     "commander": "^13.1.0",
     "crypto-js": "^4.2.0",
-    "inquirer": "^12.4.1"
+    "inquirer": "^12.4.1",
+    "update-notifier": "^7.3.1"
   }
 }

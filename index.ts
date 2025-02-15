@@ -7,6 +7,10 @@ import { addProfile } from './cmd/addProfile';
 import { deleteProfile } from './cmd/deleteProfile';
 import { printVariables } from './cmd/print';
 import { listProfilesCommand } from './cmd/listProfiles';
+import updateNotifier from 'update-notifier';
+import packageJson from './package.json' assert {type: 'json'};
+
+updateNotifier({pkg: packageJson}).notify();
 
 const program = new Command();
 
