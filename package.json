@@ -1,0 +1,17 @@
+{
+  "name": "safeenv",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --compile --outfile build/safeenv"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "safeenv": "build/safeenv"
+  }
+}
