@@ -11,7 +11,7 @@ import { listProfilesCommand } from './cmd/listProfiles';
 const program = new Command();
 
 program
-  .name('safeenv')
+  .name('crypt-env')
   .description('Secure environment manager with profile-based encrypted storage')
   .version('1.0.0');
 

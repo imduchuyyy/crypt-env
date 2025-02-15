@@ -1,9 +1,13 @@
 {
-  "name": "safeenv",
+  "name": "@imduchuyyy/crypt-env",
+  "version": "0.1.0",
   "module": "index.ts",
+  "description": "Secure environment manager with profile-based encrypted storage",
+  "author": "Duc Huy <imduchuyyy@gmail.com>",
+  "homepage": "https://github.com/imduchuyyy/crypt-env",
   "type": "module",
   "scripts": {
-    "build": "bun build ./index.ts --compile --outfile build/safeenv"
+    "build": "bun build ./index.ts --compile --outfile build/crypt-env"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -12,7 +16,7 @@
     "typescript": "^5.0.0"
   },
   "bin": {
-    "safeenv": "build/safeenv"
+    "crypt-env": "build/crypt-env"
   },
   "dependencies": {
     "@types/crypto-js": "^4.2.2",
