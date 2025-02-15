@@ -10,10 +10,12 @@ import { listProfilesCommand } from './cmd/listProfiles';
 
 const program = new Command();
 
+const VERSION = '0.1.2';
+
 program
   .name('crypt-env')
   .description('Secure environment manager with profile-based encrypted storage')
-  .version('0.1.2');
+  .version(VERSION);
 
 program
   .command('add-profile <profile>')
@@ -59,5 +61,14 @@ program
   .command('delete-profile <profile>')
   .description('Delete a profile (cannot delete "main" profile)')
   .action(deleteProfile);
+
+
+program
+  .command('version')
+  .description('Show the version of CryptEnv')
+  .action(() => {
+    console.log(VERSION);
+  });
+
 
 program.parse(process.argv);

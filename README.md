@@ -9,6 +9,11 @@ Say goodbye to plain text environment variables in your code.
 npm install -g @imduchuyyy/crypt-env
 ```
 
+## Update CryptEnv
+```bash
+npm upgrade -g @imduchuyyy/crypt-env
+```
+
 ## 🧑‍💻 Usage
 ### Set an environment variable
 ```bash
